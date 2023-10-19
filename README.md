@@ -58,15 +58,9 @@ Un sensor de luminosidad es un dispositivo que tiene muchas aplicaciones pero, d
 
 Desde su salida negativa (Cátodo) la alimentamos con 5V y desde su salida positiva (Ánodo) la conectamos ,a una entrada analogica de la placa de Arduino ,y a una resistencia de 50kOhm que esta conectada a Tierra (Podemos colocarle otro valor a la resistencia, pero en este caso decidimos colocarle ese valor para trabajar con ella, en el caso de querer colocar otra resistencia, tendriamos que regular todo otra vez). Ahora, por medio de una variable, en este caso `lectura_luz`, tomamos un rango de todos los valores que nos va dando el sensor a medida que incrementa o disminuye la intensidad luminica, en este caso, nos entrega un rango de (49 - 1023), por lo que para saber que porcentaje de intensidad luminica es, llamamos a otra variable, en este caso es `luz` utilizando la [función map()](https://arduinofacil.com/como-funciona-la-funcion-map/#:~:text=La%20función%20map()%20de,inicio%20rango%20de%20entrada) para poner esos valores entre un rango del 0% al 100%. De esta manera, sabemos que a menor porcentaje de intensidad luminica, el fotodiodo entrega menor voltaje y a mayor porcentaje de luz liminica, el fotodiodo entrega un mayor voltaje.
 
-Algunos ejemplos de uso del fotodiodo son: 
-1. Comunicaciones ópticas
-2. Lectores de códigos de barras
-3. Sensores de proximidad
-4. Sistemas de seguridad y alarmas
-5. Fotodetectores en experimentos científicos
-6. Radiometría y fotometría
-7. Detectores de infrarrojos (IR)
-8. Detección de radiación UV
+Uso del sensor ambiental:
+
+El sensor detecta los niveles de luz ambiental para ajustar el brillo y la temperatura de color de la imagen. Gracias a esta función es posible obtener la mejor calidad de imagen posible en las condiciones de iluminación de la habitación.
    
 ![9](https://github.com/Cheis18/Parcial_SPD/assets/113544459/dc97fdcd-88ef-42cc-94bc-3404b4774e5f)
 
