@@ -50,9 +50,9 @@ Se le puede agregar al proyecto un "motor de aficionado", llamado así porque es
 ## Enlace del ejemplo
 [Motor de "aficionado" con inversión de marcha por medio de un controlador](https://www.tinkercad.com/things/3DWHBq6tPv1-glorious-bombul/editel?sharecode=xVmE-y7X4gkLnzfS4gMHEVI4tN6mgUbmRkFmlm31f5o)
 
-## Tercera Parte: Implementación de un fotodiodo en el proyecto
-![](img/parte3.png)
-A la parte 2 le agregamos un [fotodiodo](https://como-funciona.co/fotodiodo/). Un fotodiodo es un dispositivo semiconductor que genera una corriente eléctrica cuando se expone a la luz. Esto se logra mediante la absorción de fotones de luz que liberan electrones en el material semiconductor. Estos electrones generan una corriente eléctrica detectable. Para poder funcionar correctamente, un fotodiodo se compone de una polarización inversa, que permite el adecuado flujo de electrones o la corriente en sentido inverso. Los fotodiodos son muy sensibles y tienen una respuesta rápida a cambios en la intensidad de la luz. Pueden estar diseñados para detectar luz en un rango específico del espectro electromagnético, como infrarrojo, ultravioleta o visible. Los fotodiodos se utilizan en aplicaciones que requieren alta sensibilidad y precisión, como en fotodetectores, comunicaciones ópticas, lectores de códigos de barras y sistemas de control automático.
+## Tercera Parte: Implementación de un sensor ambiental en el proyecto
+(![8](https://github.com/Cheis18/Parcial_SPD/assets/113544459/80c2ecff-7d97-4964-b6cf-ad7b2526145e)
+Un sensor de luminosidad es un dispositivo que tiene muchas aplicaciones pero, de entre todas ellas, la más destacable de todas es que nos permite hacer un uso mucho más eficiente de la energía que utilizamos, adaptando la potencia de las luminarias a la luz ambiental existente
 
 ## 2) Explicación de su funcionamiento
 
@@ -68,7 +68,8 @@ Algunos ejemplos de uso del fotodiodo son:
 7. Detectores de infrarrojos (IR)
 8. Detección de radiación UV
    
-![](img/fotodiodo.png)
+![9](https://github.com/Cheis18/Parcial_SPD/assets/113544459/dc97fdcd-88ef-42cc-94bc-3404b4774e5f)
+
 
 ## 3) Enlace del proyecto
-[SPD - Primer parcial - Parte 3](https://www.tinkercad.com/things/i2WYjdxy4Ad-tercera-parte-cambio-de-estado-por-medio-de-un-interruptor/editel?sharecode=Q4o8lk4AmnOYl5Bo9QZUgtl31wEAvNC7s81YJKjrU28)
+[SPD - Primer parcial - Parte 3](https://www.tinkercad.com/things/hLbInryp3Hc-copy-of-copy-of-ejericio1-3/editel?tenant=circuits)
