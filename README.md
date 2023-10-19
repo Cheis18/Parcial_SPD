@@ -23,10 +23,10 @@ Este proyecto involucra la implementación de un contador utilizando dos visuali
 Además, en términos de la electrónica utilizada, se emplea la [multiplexación](https://www.uazuay.edu.ec/sistemas/teleprocesos/multiplexacion)  y evita problemas de ruido de señal, como el fenómeno conocido como ["debounce"](https://www.murkyrobot.com/guias/arduino/debounce) o ["efecto rebote"](https://www.murkyrobot.com/guias/arduino/debounce).
 
 ## 2) Enlace del proyecto
-[SPD - Primer parcial - Parte 1](https://www.tinkercad.com/things/c6Y9zx44Fnb-copy-of-primera-parte-del-examen-de-spd/editel?sharecode=_g-j-M7_DWu3wRsHQ90MPSgqWQZF7gK58weqZ-hQx6w)
+[SPD - Primer parcial - Parte 1]([https://www.tinkercad.com/things/c6Y9zx44Fnb-copy-of-primera-parte-del-examen-de-spd/editel?sharecode=_g-j-M7_DWu3wRsHQ90MPSgqWQZF7gK58weqZ-hQx6w](https://www.tinkercad.com/things/6Zc6LRO8SDc-copy-of-ejericio1-2/editel?tenant=circuits))
 
 ## Segunda Parte: Cambio de estado por medio de un interruptor deslizante +  sensor de flexión
-![](img/parte_2.png)
+![3](https://github.com/Cheis18/Parcial_SPD/assets/113544459/213f7a1c-6212-4d40-82e8-6625440e4881)
 
 ## 1) Descripción
 
@@ -35,14 +35,17 @@ Para la parte 1, agregamos ahora un interruptor, donde su funcionamiento es alte
 Además, se agregó un [sensor de flexión](https://rambal.com/presion-peso-nivel-flex/250-sensor-flex.html#:~:text=El%20Sensor%20Flex%20(%20Sensor%20de%20Flexiono%20o%20flex%20sensor)%20produce,distintos%20valores%20de%20resistencia%20electrica.), este dispositivo detecta la flexión o curvatura de un objeto, como un cable o una pieza flexible y entrega el angulo de inclinación. Para esto se declaró una función de nombre `mostrarAngulo()`.
 
 ## 2) Enlace del proyecto
-[SPD - Primer parcial - Parte 2](https://www.tinkercad.com/things/hBZ97ZE6uDL-segunda-parte-del-examen-de-spd-parte-1/editel?sharecode=j5J0IRgQ8MvUgFu1s8G4YiuOi-3GZQqMK3ufEMskiOQ)
+[SPD - Primer parcial - Parte 2](h[ttps://www.tinkercad.com/things/hBZ97ZE6uDL-segunda-parte-del-examen-de-spd-parte-1/editel?sharecode=j5J0IRgQ8MvUgFu1s8G4YiuOi-3GZQqMK3ufEMskiOQ](https://www.tinkercad.com/things/gKkeTF3bbIq-copy-of-copy-of-copy-of-ejericio1-3/editel?tenant=circuits))
 
 ## 3) Sugerencia como componente adicional
-![](img/motor_aficcionado.png)
-![](img/controlador.png)
+![4](https://github.com/Cheis18/Parcial_SPD/assets/113544459/79ea7d16-fa2e-413b-a405-5fe0fa74f45b)
+
+![5](https://github.com/Cheis18/Parcial_SPD/assets/113544459/4f35e6be-9a50-490d-bfc0-4a5434720360)
+
 
 Se le puede agregar al proyecto un "motor de aficionado", llamado así porque es un motor de cc (corriente continua) que se le acopló una carcasa para generar movimiento, ya sea para brazos, ruedas, helices, etc. Para tener más control sobre este, podemos incluir al proyecto un ["controlador de motor"](https://cursos.mcielectronics.cl/2022/08/05/que-es-un-puente-h/) o tambien llamado ["Puente H"](https://cursos.mcielectronics.cl/2022/08/05/que-es-un-puente-h/). En el siguiente enlace se enseña como podria usarse dicho motor y controlador en una placa arduino para controlar el sentido de giro del motor.
-![](img/ejemplo.png)
+![6](https://github.com/Cheis18/Parcial_SPD/assets/113544459/9e6787b7-6ee3-491b-98be-a97a5700f24d)
+
 
 ## Enlace del ejemplo
 [Motor de "aficionado" con inversión de marcha por medio de un controlador](https://www.tinkercad.com/things/3DWHBq6tPv1-glorious-bombul/editel?sharecode=xVmE-y7X4gkLnzfS4gMHEVI4tN6mgUbmRkFmlm31f5o)
